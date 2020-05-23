@@ -1,0 +1,20 @@
+# xcode
+xcuserdata
+*.gcno
+
+# osx noise
+.DS_Store
+profile
+DerivedData
+WiMP.xcworkspace/xcshareddata/WiMP.xccheckout
+
+# Fastlane
+fastlane/cookies.txt
+fastlane/commitSha.txt
+fastlane/report.xml
+
+# AppCode
+.idea/
+
+# Cocoapods
+Pods/
