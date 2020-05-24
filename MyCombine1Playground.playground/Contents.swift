@@ -3,10 +3,8 @@ import Combine
 
 //Custome Subscriber
 
-
-// 1. Create a publisher of integers vis the range's publihser property.
+// 1. Create a publisher of integers via the range's publihser property.
 let publisher = (1...6).publisher
-
 
 //2. Define Custom Subscriber , IntSubscriber
 final class IntSubscriber: Subscriber {
@@ -33,3 +31,8 @@ final class IntSubscriber: Subscriber {
     }
     
 }
+
+
+//Start from here
+let subscriber = IntSubscriber()
+publisher.subscribe(subscriber)
